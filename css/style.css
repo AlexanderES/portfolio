@@ -460,7 +460,7 @@ b i:last-child {
     left: 50%;
     margin-left: -12px;
     border-radius: 15px;
-    border: 2px solid #888;
+    border: 2px solid grey;
     -webkit-animation: intro 1s;
     animation: intro 1s;
 }
@@ -471,7 +471,7 @@ b i:last-child {
     height: 3px;
     margin: 6px auto;
     border-radius: 4px;
-    background: #888;
+    background: grey;
     -webkit-animation: finger 2s infinite;
     animation: finger 2s infinite;
 }
@@ -853,7 +853,7 @@ footer img {
     right: 10px;
     text-align: center;
     color: #fff;
-    background: rgba(255, 191, 0, 0.8);
+    background: #90EE90;
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -879,7 +879,7 @@ footer img {
 
 .no-touch .cd-top:hover,
 .no-touch .cd-top:focus {
-    background-color: #90EE90;
+    background-color: #888;
     opacity: 1;
     color: #fff;
 }
@@ -1088,7 +1088,7 @@ textarea:focus {
 
 .btn-box:hover,
 .btn-box:focus {
-    background: #F5B700;
+    background: #888;
     color: #fff;
 }
 
