@@ -85,12 +85,12 @@ a {
 }
 
 #wiki {
-    border: 1px solid #393939;
+    border: 0.5px solid #393939;
     margin-top: 18px;
   }
 
 #final {
-    border: 1px solid #A7D7F9;
+    border: 0.5px solid #A7D7F9;
     margin-bottom: 6px;
 }
 
