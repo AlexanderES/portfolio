@@ -50,6 +50,10 @@ body {
     padding-right: 0;
 }
 
+.section{
+    padding-top: 10px;
+}
+
 .main-container {
     padding: 100px 0;
 }
@@ -76,13 +80,23 @@ a {
 }
 
 .color {
-    color: #90EE90;
+    color: #50C878;
     font-size: 11px;
 }
 
-img {
+#wiki {
     border: 1px solid #393939;
+    margin-top: 18px;
   }
+
+#final {
+    border: 1px solid #A7D7F9;
+    margin-bottom: 6px;
+}
+
+.caption {
+    padding-top: 12px;
+}
 
 /* typography
 ==================================================*/
@@ -98,7 +112,8 @@ h3 {
 }
 
 h5 {
-    color: #90EE90;
+    color: #50C878;
+    margin-top: 24px;
 }
 
 
@@ -140,7 +155,7 @@ h5 {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #90EE90;
+    background-color: #50C878;
     opacity: 0.6;
     position: absolute;
     top: 0;
@@ -388,7 +403,7 @@ h5 {
 }
 
 .box-primary-nav .box-label {
-    color: #90ee90;
+    color: #50C878;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 17px;
@@ -442,7 +457,7 @@ h5 {
 }
 
 b i:last-child {
-    color: #90EE90 !important;
+    color: #50C878 !important;
 }
 
 .box-intro h5 {
@@ -715,7 +730,7 @@ b i:last-child {
 
 .portfolio .categories-grid .categories ul li a.active {
     margin-left: 0;
-    background-color: #90EE90;
+    background-color: #50C878;
     padding: 0px 20px;
     color: white;
     border-radius: 25px;
@@ -772,7 +787,7 @@ b i:last-child {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #90EE90;
+    background-color: #50C878;
     padding: 5px 20px;
     border-radius: 25px;
     color: #333;
@@ -856,7 +871,7 @@ footer img {
     right: 10px;
     text-align: center;
     color: #fff;
-    background: #90EE90;
+    background: #50C878;
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -894,8 +909,8 @@ footer img {
 .top-bar {
     color: #333;
     padding: 150px 0 150px;
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/header2.jpg);
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/header2.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -1044,7 +1059,7 @@ footer img {
 
 .input-contact > span.active,
 .textarea-contact > span.active {
-    color: #90EE90;
+    color: #50C878;
     font-size: 10px;
     top: 0px;
     left: 5px;
@@ -1065,7 +1080,7 @@ textarea:focus {
     height: 30px;
     width: 30px;
     display: inline-block;
-    background: #90EE90;
+    background: #50C878;
     text-align: center;
     line-height: 33px;
     margin-right: 10px;
@@ -1079,7 +1094,7 @@ textarea:focus {
 }
 
 .btn-box {
-    background: #90EE90;
+    background: #50C878;
     padding: 10px 50px;
     border-radius: 0;
     color: #fff;
@@ -1106,7 +1121,7 @@ textarea:focus {
 
 .cat-ul li i {
     margin-right: 10px;
-    color: #90EE90;
+    color: #50C878;
 }
 
 
