@@ -67,6 +67,26 @@ a {
     transition: all .3s
 }
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 12px;
+}
+#mc {
+    width: 39%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
