@@ -145,9 +145,13 @@ h3 {
     color: #393939;
 }
 
+h4 {
+    margin-top: 24px;
+}
+
 h5 {
     color: #50C878;
-    margin-top: 24px;
+    margin-top: 20px;
 }
 
 
