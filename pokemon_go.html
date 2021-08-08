@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Pokemon Go Ethics Research</title>
+    <title>Pokémon Go Ethics Research</title>
     <link rel="icon" href="img/fav.png" type="image/x-icon">
 
     <!-- Bootstrap -->
@@ -165,8 +165,9 @@
         
         <p>Each member of the team took a third of the responses to filter out data based on criteria like too many of the same responses, surveys missing a lot of responses, and responses that were not relevant to demographic or open-ended questions. After cleaning the data, we
             we still had about 2020 responses.</p>
-        <p>We then converted multiple-choice responses to numbers. This would allow us to use IBM SPSS to analyze the data easily. Most questions had some type of scale already, like yes-no questions and change of importance. For the ethical stance questions though, we decided to make "It Depends" as a 
-            higher ethical thinking option than "No Opinion," which gave us a scale of 1-6. "It Depends" was translated to 4 and "No Opinion" to 3. The reasoning for this was that saying it depends implies the action could be ethical in some cases, as opposed to being completely neutral.
+        <p>We then converted multiple-choice responses to numbers. This would allow us to use IBM SPSS to analyze the data easily. Most questions had some type of scale already, like yes-no questions and change of importance. For the ethical stance question results in the first paper, we only included Completely ethical and Somewhat ethical as "ethical thinking" (approval) and Somewhat unethical, 
+          Not at all ethical as "unethical thinking." Later on, we included It depends and No Opinion. We decided to make It Depends as a 
+            higher ethical thinking option than No Opinion, which gave us a scale of 1-6 including all of the options. It Depends was translated to 4 and No Opinion to 3. The reasoning for this was that saying it depends implies the action could be ethical in some cases, as opposed to being completely neutral.
         </p>
         <table id="mc">
             <tr>
@@ -204,78 +205,131 @@
             
         <h5>Answering the research questions</h5>
         <p>To answer the first question, about which actions users perform the most, we found that 85.12% of players have used social media to obtain game information. The second most common action was using a third-party app to check their Pokémon's Individual Values, or stats.
-           This action had a percentage of 82.06%. The least performed actions were using a bot to play automatically and playing for financial incentives, with 1.33% and 1.04%, respectively. Some more interesting statistics were that 54.62% of players have played 
-          in a culturally sensitive location, like hospitals and graveyards, and 51.66% of players have played while they were driving. In progress...</p>
+           This action had a percentage of 82.06%. Taking down a gym after the Pokemon have only been there a short amount of time was the third most performed action. These actions also had high ethical thinking rates, ranging from 73% to 87.99%. Having a high ethical thinking rate seemed to have a similar performance rate, at least for these three actions.
+        </p>
+        
+        <p>The least performed actions were using a bot to play automatically and playing for financial incentives, with 1.33% and 1.04%, respectively. Their ethical thinking was very low, at 2.67% and 5.98%. 
+        </p>
+        
+        <p>Some more interesting statistics were that 54.62% of players have played 
+          in a culturally sensitive location, like hospitals and graveyards, and 51.66% of players have played while they were driving. Playing while driving has very low ethical thinking however, at 6.18%.
+        </p>
 
+        <p>To answer the question about what kind of philosophical stances people take, we chose three types.
+          <table>
+            <tr><th>Philosophical Stance</th><th>Description</th></tr>
+            <tr><td>Consequentialism</td><td>Goodness or badness of outcomes, harm to other players, rules capturing
+              the idea of no harm/no foul, or little harm/little foul, etc.</td></tr>
+            <tr><td>Deontology, or duty-based</td><td>Responses
+              that appeal to desert, merit, fair game play, contracts, and the like</td></tr>
+            <tr><td>Virtue Ethics</td><td>Responses that note norms of etiquette and characteristics of what it is to play the
+            game with honor</td></tr>
+          </table>
+          <p>
+            For actions that are mostly ethical, we learned users believe actions <b>benefiting others</b> are mostly ethical. This includes actions like playing for friends and family and playing for children as their guardian. From the open-ended responses, some people mentioned things like it is okay to play for someone if they are not as good at the game or if they are busy and can't make it to raids or catching rare Pokémon.
+            There wasn't a particular philosophical stance used for these responses though.
+          </p> 
+          <p>
+             Another prominent category of actions considered ethical was <b>actions that may negatively impact others but permissible under the rules of the game</b>. 
+             Actions that fall under this category include taking a gym down after the Pokémon have only been there a short time and taking down a gym shortly before midnight (potentially causing a player to lose out on coins if they got all their coins for the day). The reasoning in responses for these actions seemed to be deontological, saying that those actions are allowed as part of the rules of the game and the players affected have likely performed the same actions. 
+          </p>
+          <p>Action categories considered unethical included <b>Actions with negative real-world impact</b> and <b>Actions that manipulate game technologies to gain advantages</b>. The first category included actions like playing while driving, trespassing on private property, and playing for financial incentives. These actions involve a player's safety, breaking laws, and changing a player's financial situation, both for the seller and buyer. All three philosophical stances were used for responses explaining the unethical nature of these actions.
+          Consequentialism was used to describe how driving while playing can harm others and how it is the player's, the driver's, duty to notice their environment. Deontology was used when talking about how playing for financial incentives gets rid of the work and challenge of the player obtaining things on their own. It is their duty to achieve/obtain those things alone, so it gets rid of their merit playing the game.</p>
+          <p>Actions that manipulate game technologies to gain advantages include spoofing locations, changing a device's time, and using a bot to play automatically. Here, deontology and virtue-ethics were used to explain why the actions are unethical. Some players mentioned actions like spoofing and changing the time on your device get rid of the "spirit" of the game, adventuring and meeting people. This goes against what they believe to be the honorable or just way to play, outside of following the rules/terms of service.</p>
+        </p>
         <h5>Age and Gender Results</h5>
-        <p>We have been writing a second paper for the results based on age and gender. I made some visualizations comparing the gender and age groups on different questions: Ethical thinking, Motivation for playing the game, and Actions performed. To view them on an Observable/D3 notebook, click <a href="https://observablehq.com/@alexanderes/pokemon-go-graphs">here</a>. Section in progress.</p>
-        <!-- <img src="img/pokemon_go/action.png" class="img-responsive" width=900> -->
+        <p>We have been writing a second paper for the results based on age and gender.</p>
+        <p>We decided to group the actions into categories describing a type of situation. To make sure the groupings were significant, we made sure each group had a regression of at least 0.5, but preferably 0.7. This is some of the brainstorming we did to create the groups.</p>
+        <img src="img/pokemon_go/miro1.PNG" class="img-responsive" width=700>
+        <p></p>
+        <p>With these groups, we decided to analyze the responses of males compared to females. We also compared the responses of Gen X, Gen Y, and Gen Z. To display some of the major differences, I made some visualizations for three different questions: Ethical thinking, Motivation for playing the game, and Actions performed. 
+          To view them on an Observable/D3 notebook, click <a href="https://observablehq.com/@alexanderes/pokemon-go-graphs">here</a>. After many discussions and brainstorming sessions however, we decided to write about motivations and their impact on which actions each group of participants performed, or did not perform, for the discussion in the paper.</p>
+
         <h4>Appendix</h4>
+        <h5>Results</h5>
+        <table class="tableizer-table">
+        <thead><tr class="tableizer-firstrow"><th>Ethically Questionable Action</th><th># of people conducted (n=2023)</th><th>% of people conducted</th><th># of ethical thinking approval</th><th>% of ethical thinking approval</th><th># of unethical thinking</th><th>% of unethical thinking</th></tr></thead><tbody>
+         <tr><td>Using social media to obtain information</td><td>1722</td><td>85.12%</td><td>1780</td><td>87.99%</td><td>65</td><td>3.21%</td></tr>
+         <tr><td>Using a third-party app to evaluate a Pokémon</td><td>1660</td><td>82.06%</td><td>1729</td><td>85.47%</td><td>69</td><td>3.41%</td></tr>
+         <tr><td>Taking down a gym of other team's Pokémon after a short time</td><td>1489</td><td>73.60%</td><td>1331</td><td>65.79%</td><td>294</td><td>14.53%</td></tr>
+         <tr><td>Playing for friends, family, or acquaintances</td><td>1152</td><td>56.95%</td><td>1121</td><td>55.41%</td><td>365</td><td>18.04%</td></tr>
+         <tr><td>Playing inside a culturally sensitive location</td><td>1105</td><td>54.62%</td><td>534</td><td>26.40%</td><td>583</td><td>28.82%</td></tr>
+         <tr><td>Going to a business for playing Pokémon GO</td><td>1056</td><td>52.20%</td><td>1087</td><td>53.73%</td><td>187</td><td>9.24%</td></tr>
+         <tr><td>Playing while driving as the driver, not the passenger</td><td>1045</td><td>51.66%</td><td>125</td><td>6.18%</td><td>1558</td><td>77.01%</td></tr>
+         <tr><td>Using third-party maps or scanner to find Pokémon  </td><td>1038</td><td>51.31%</td><td>866</td><td>42.81%</td><td>671</td><td>33.17%</td></tr>
+         <tr><td>Using third-party maps or scanners to find raids</td><td>981</td><td>48.49%</td><td>1233</td><td>60.95%</td><td>348</td><td>17.20%</td></tr>
+         <tr><td>Creating a private lobby to exclude spoofing  people </td><td>901</td><td>44.54%</td><td>1492</td><td>73.75%</td><td>156</td><td>7.71%</td></tr>
+         <tr><td>Taking down a gym shortly before midnight</td><td>844</td><td>41.72%</td><td>1259</td><td>62.23%</td><td>301</td><td>14.88%</td></tr>
+         <tr><td>Playing with multiple accounts</td><td>785</td><td>38.80%</td><td>677</td><td>33.47%</td><td>761</td><td>37.62%</td></tr>
+         <tr><td>Attending an EX raid in place of players who cannot make it</td><td>776</td><td>38.36%</td><td>1357</td><td>67.08%</td><td>260</td><td>12.85%</td></tr>
+         <tr><td>Using a "Gotcha"</td><td>625</td><td>30.89%</td><td>1208</td><td>59.71%</td><td>359</td><td>17.75%</td></tr>
+         <tr><td>Trespassing on public property</td><td>585</td><td>28.92%</td><td>296</td><td>14.63%</td><td>1230</td><td>60.80%</td></tr>
+         <tr><td>Asking someone to join a different raid group </td><td>527</td><td>26.05%</td><td>744</td><td>36.78%</td><td>416</td><td>20.56%</td></tr>
+         <tr><td>Using another account to kick your own Pokémon out of a gym</td><td>366</td><td>18.09%</td><td>553</td><td>27.34%</td><td>1012</td><td>50.02%</td></tr>
+         <tr><td>Playing for children as their guardian</td><td>3198</td><td>15.76%</td><td>1420</td><td>70.19%</td><td>172</td><td>8.50%</td></tr>
+         <tr><td>Trading a Pokémon when you suspect it was caught by spoofing</td><td>314</td><td>15.52%</td><td>224</td><td>11.07%</td><td>1202</td><td>59.42%</td></tr>
+         <tr><td>Changing time on device to get the next day's raid pass</td><td>294</td><td>14.53%</td><td>309</td><td>15.27%</td><td>1274</td><td>62.98%</td></tr>
+         <tr><td>Gym shaving </td><td>259</td><td>12.80%</td><td>223</td><td>11.02%</td><td>1491</td><td>73.70%</td></tr>
+         <tr><td>Trespassing on private property while playing</td><td>223</td><td>11.02%</td><td>60</td><td>2.97%</td><td>1714</td><td>84.73%</td></tr>
+         <tr><td>Spoofing your location in game</td><td>180</td><td>8.90%</td><td>75</td><td>3.71%</td><td>1703</td><td>84.18%</td></tr>
+         <tr><td>Using a bot to automatically play</td><td>27</td><td>1.33%</td><td>54</td><td>2.67%</td><td>1423</td><td>70.34%</td></tr>
+         <tr><td>Playing for financial incentives </td><td>21</td><td>1.04%</td><td>121</td><td>5.98%</td><td>1654</td><td>81.76%</td></tr>
+        </tbody></table>
         <h5>Codebook</h5>
         <table>
             <tr>
               <th>Code</th>
               <th>Description</th>
               <th>Example</th>
-              <th>Ethics</th>
             </tr>
             <tr>
               <td>Impact to others (Benefiting others)</td>
               <td>The player's action helps or benefits other player(s) such as getting them daily coins, 
                   proxying a raid when they cannot attend it themselves, etc.</td>
               <td>They have a class, and there is an Exraid, so I did it for them.</td>
-              <td>Virtue Ethics</td>
             </tr>
             <tr>
               <td>Impact to others (Harming others)</td>
               <td>The player's action is justified or not based on its overall impact to other players in game and/or in real life.</td>
               <td>Spoofing is fine if all they do is catch, but not if they start battling gyms and trading regionals.</td>
-              <td>Consequentialism</td>
             </tr>
             <tr>
               <td>Alignment with goal of the game</td>
               <td>The player's action aligns with and contributes to the goal of the game. (e.g., kicking another player out of the gym)</td>
               <td>You are supposed to kick out other players from the gym, it doesn't matter when I kick them out.</td>
-              <td>Deontology</td>
             </tr>
             <tr>
               <td>Fairness</td>
               <td>The player feels justified in their action based on the fact that the game disadvantages certain player(s) based on their ability, possession, or characteristics (e.g., 
                   time, transportation, age, physical ability, density of play area, social, financial reasons).</td>
               <td>I spoof all the time because I live in a rural area without any Pokemon. The game design is totally flawed.</td>
-              <td>Deontology</td>
             </tr>
             <tr>
               <td>Degree of violation</td>
               <td>The player's action is justified or not based on the degree of the violation of ToS or social etiquette.</td>
               <td>My friend is taking a final exam on Friday, so it's ok to do that Exraid for them. But it's totally not ok if my friend always asks me to do raids for them.
             </td>
-              <td>Consequentialism</td>
             </tr>
             <tr>
               <td>Safety and harassment / Physical and mental safety</td>
               <td>The player's action is justified or not based on its impact to safety of player(s) and other people.
                 Players make decisions based on their own safety (e.g., playing at night, racism, police following, gender/sexism, bullying).</td>
               <td>Driving and playing Pokemon is totally wrong, you could hurt someone, but playing in a parked car or driving slowly in a parking lot is fine.</td>
-              <td>Consequentialism</td>
             </tr>
             <tr>
                 <td>Effort</td>
                 <td>The player feels that a game action is ethical or not based on the amount of effort individual players put in.</td>
                 <td>People who use scanners get the best pokemon without doing anything.</td>
-                <td>Undecided</td>
               </tr>
               <tr>
                 <td>Explicit knowledge</td>
                 <td>The player's action is justified or not based on whether and how much they knew about the relevant circumstances to the game action.</td>
                 <td>If you know the pokemon was obtained by spoofing and still traded, that's not ethical, but you can't blame someone if they didn't know.</td>
-                <td>Undecided</td>
               </tr>
               <tr>
                 <td>Official endorsement from company</td>
                 <td>The player's action is justified or not based on whether the company endorses tools/devices that allow the action.</td>
                 <td>Using a GO Plus is okay, but using a Gotcha isn't.</td>
-                <td>Undecided</td>
               </tr>
               <tr>
                 <td>Contextual appropriateness</td>
@@ -285,37 +339,31 @@
                 <td>(IRL) It is fine to play in the cemetary when there are no ceremonies going on.
                     (In-Game) We need to gym shave Pokemon that don't fit the theme gym. We can't have this kind of trolling.
                 </td>
-                <td>Undecided</td>
               </tr>
               <tr>
                 <td>Social pressure / acceptance</td>
                 <td>Everyone is doing X; so it means that a player can do X. There are social pressures that influence how a player makes decisions. OR in my community it is okay and accepted.</td>
                 <td>Everyone around me has 28 Unowns, there's no way they are getting these without spoofing. I gotta spoof.</td>
-                <td>Undecided</td>
               </tr>
               <tr>
                 <td>Retaliation</td>
                 <td>Cases where retaliation happens (like taking a gym back or targeting certain players).</td>
                 <td>If I see someone take a gym from me or another team quickly, I have no problem returning the favor. But I generally have a 1 hour rule when fighting gyms.</td>
-                <td>Undecided</td>
               </tr>
               <tr>
                 <td>Efficiency</td>
                 <td>The game is inefficient; players make decisions and choices based on becoming more efficient, advantegeous, and better.</td>
                 <td>Spoofing just makes the game a lot easier for me.</td>
-                <td>Undecided</td>
               </tr>
               <tr>
                 <td>Physical barriers</td>
                 <td>The game puts items, stops, and markers in inaccessible physical locations (e.g., top of a mountain, in a prison, isolated island). Players’ ethics are dependent on their feelings of physical barriers like such. Also includes responses where players talk about their individual physical barriers to playing the game, such as their own physical impairment.</td>
                 <td>That park closes at night and I physically cannot get in but sometimes there are some really good mons.</td>
-                <td>Undecided</td>
               </tr>
               <tr>
                 <td>Tracking and Privacy</td>
                 <td>Players' actions are justified or not based on how much personal or identifiable information (like real name), and devices are shared among players.</td>
                 <td>It's not ok to ask people for their real names during a raid.</td>
-                <td>Undecided</td>
               </tr>
           </table>
         </div>
