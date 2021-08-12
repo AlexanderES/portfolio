@@ -119,6 +119,11 @@ tr:nth-child(even) {
     margin-top: 18px;
   }
 
+#mi {
+    border: 0.5px solid #999;
+    margin-bottom: 20px;
+}
+
 #caption {
     font-size: x-small;
 }
