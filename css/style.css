@@ -511,8 +511,15 @@ h5 {
   margin: auto;
 }
 
+.slideshow-container2 {
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+    margin-left: 0;
+  }
+
 /* Hide the images by default */
-.mySlides, .mySlides2, .mySlides3 {
+.mySlides, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {
   display: none;
 }
 
@@ -540,7 +547,7 @@ h5 {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.5);
   color: #50C878;
 }
 
