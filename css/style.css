@@ -309,11 +309,6 @@ h5 {
     background-color: rgba(255, 255, 255, 0.96);
 }
 
-.box-logo {
-    display: block;
-    padding: 20px;
-}
-
 .box-primary-nav-trigger {
     position: absolute;
     right: 0;
