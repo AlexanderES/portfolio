@@ -86,33 +86,40 @@
         </div>
 
         <div class="col-md-9">
-            <p>In the last year, W. W. Norton has been updating their ebooks. Along with updating the look of the ebook,
-                they have been adding new features
-                for professors to assign additional content to their students, including interactives of various types
-                along with multiple choice questions. These assignments
-                are consistent for each book, e.g. a biology book will have the same assignments for every different
+            <p>Though it is important to have great usability in every industry, Education is one of the most important
+                industries as more educational
+                tools are developed in technology and students of all abilities are required to use them.
+                Because of this W. W. Norton has been updating their ebook reader for more accessible use.
+                Along with updating the look of the ebook, they have been adding new features for professors to assign
+                additional content to their students, including interactive content like multiple choice questions.
+                These assignments are consistent for each book, e.g. a biology book will have the same assignments for
+                every different
                 school and class that uses it, and the assignments for one chapter can be graded on most Learning
                 Management Systems.</p>
 
             <p>From February to May, I got to work with the Design team at W. W. Norton on the designs for the multiple
-                choice frames for the Assignable Ebook. I joined shortly after the Interactives were finalized. During
-                those three months, we
-                focused largely on the design of the multiple choice questions alone.
+                choice frames for the Assignable Ebook.
+                During those three months, we focused largely on the design of the multiple choice questions.
             </p>
 
             <h4>Research</h4>
             <h5>Requirements</h5>
 
-            <p>The requirements were defined by our stakeholders and product owners. We were given a list of user
-                stories whose criteria we had to meet. We also made sure all our ideas were feasible for our dev team
-                and the product they have built out so far. With guidance
-                from our UX copywriter and our Accessibility Expert, we made sure the language and accessbility of the
+            <p>The requirements were defined by our stakeholders and product owners.
+                We were given a list of user stories whose criteria we had to meet.
+                We also made sure all our ideas were feasible for our dev team and the product they have built out so
+                far.
+                As we learned more about the feasibility, we revisited the stories to provide additional
+                acceptance criteria by introducing user stories from an accessibility perspective.
+                From previous research, we knew that we would need to design for users with screen magnifiers.
+                With guidance from our UX copywriter and our Accessibility Expert, we made sure the language and
+                accessibility of the
                 product would be prioritized starting from the very beginning of our design process.
             </p>
             <p>Students would need to answer multiple choice questions as part of a chapter assigned to them through
                 their Learning Management System. Depending on the chapter, some would include more than one multiple
-                choice question, or Interactive activity as well.
-                These were some of the considerations needed when thinking of designs. </p>
+                choice question, or Interactive activity as well, such as watching a video or reading a certain passage.
+                These were some of the considerations needed when thinking of our designs. </p>
             <p></p>
             <img src="img/norton/userstories.png" class="img-responsive" id="wiki" width="800" />
             <p><b>Figure 1.</b> - Some of the user stories given by the stakeholders.</p>
@@ -233,13 +240,27 @@
                 }
             </script>
 
-            <p>My teammates had similar concepts to a combination of the formating from the first concept and the
+            <p>My teammates had similar concepts to a combination of the formatting from the first concept and the
                 feedback from the second. The reason why the third concept wouldn't work as well is because we had to
                 consider images. I also learned that questions would only need either answer specific feedback or
                 general question feedback, never both.
+            </p>
+
+            <p>
                 From our initial talk with our Accessibility expert, we also thought it would be best to avoid icons
-                only for feedback, like I had in my second concept. With these details in mind, we iterated on our
-                designs.
+                only for feedback, like I had in my second concept.
+                I learned that if icons are used, it's always best to have a label along with it.
+                Though a lot of icons have common use cases across different products, like a search icon, it still may
+                not be clear to every user.
+            </p>
+
+            <p>
+                For the question feedback, the inline feedback would be an issue for accessibility because of how it
+                appears in the focus order of
+                a magnifier. This would also take up more screen real estate that we already had a little bit of.
+            </p>
+
+            <p> With these details in mind, we iterated on our designs.
             </p>
 
             <h5>First Iteration</h5>
@@ -310,7 +331,7 @@
                 chapter would be considered an assignment, it would be better to replace the due date at the top since
                 the due date can be shown somewhere else in the ebook. </p>
 
-            <p>After one final talk with our accessbility expert though, there was one better-suited approach.
+            <p>After one final talk with our accessibility expert though, there was one better-suited approach.
             </p>
 
             <h5>Final Design</h5>
@@ -374,10 +395,10 @@
             </script>
 
             <p>We decided to go with a feedback modal instead of showing the feedback in one spot of the frame. This is
-                more accessible for screen readers as it provides a new screen for them to detect. Having a new screen
-                displays feedback more clearly since
-                it takes up the entire frame. The modal would also prevent users from interacting with the rest of the
-                ebook, to make sure users get the feedback and to prevent issues with completion.
+                more accessible for screen readers as it provides a new screen for them to detect.
+                Having a new screen displays feedback more clearly since it also takes up the entire frame.
+                The modal would also prevent users from interacting with the rest of the ebook, to make sure users get
+                the feedback and to prevent issues with completion.
             </p>
 
             <h5>Integration</h5>
@@ -446,21 +467,33 @@
                 frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true"
                 webkitallowfullscreen="true"></iframe>
 
-            <p>From the results, some of the changes we wanted to make had to do with the language used for the ebook
-                confirmation modagil, the LMS badge specification, and changing the assignment overview for clearer
-                icons and reorganizing elements.</p>
+            <p>Before conducting the usability tests, I had some assumptions from my experience as a student using other LMS products.
+               I was confused about some of the labels, like LMS badge specification. 
+               I was familiar with those types of products but I hadn't heard the name or acronym used before.
+               Though I worked on the design for the multiple choice questions, I still thought users would also be able to understand the instructions and feedback well.
+            </p>
+
+            <p>From the results, all users passed the multiple choice question tasks, though they struggled a bit trying to navigate to them in the ebook. 
+                Some of the changes we wanted to make though, had to do with the language used for the ebook, such as the confirmation modal, the LMS badge specification, and changing the assignment overview for clearer
+                icons. We also wanted to reorganize the elements in the assignment overview so it would be easier to understand when all questions and activities were complete.
+                I was surprised that users wanted to see different icons to understand the navigation though. It was because the icons had no label when the side navigation was closed, which goes back to what I learned
+                about always using labels for icons.
+            </p>
+
+            <p>Overall, the usability tests gave us a lot of good feedback and validation. All 6 users passed about 95% of the tasks, but there were still improvements we could make.
+            </p>
 
             <h4>Reflection</h4>
 
             <p>The three months were very busy for the design team. I got to work on my ideation, wireframing, and
-                prototyping skills when creating new concepts. I also learned how to write a UI specification, which I
+                prototyping skills while creating new concepts. I also learned how to write a UI specification, which I
                 didn't have the opportunity of learning in the past. I really enjoyed getting to create a survey that
                 fulfilled the purpose
                 of getting new data about current users and also being used to help recruit study participants. Writing
                 the Usability testing script was very extensive, but by looking back at all our requirements as well as
-                coming together, we were able to write in a short amount of time. Our study participants were all very
+                coming together, we were able to write it in a short amount of time. Our study participants were all very
                 thorough too.</p>
-            <p>Working to improve learning products for students was very fulfilling. As a recent student, I think I was
+            <p>Working to improve educational products for students was very fulfilling. As a recent student, I think I was
                 able to bring a different perspective to the team. I also learned a lot from each team member and their
                 specializations.</p>
 

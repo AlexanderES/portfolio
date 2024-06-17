@@ -1077,10 +1077,10 @@ footer img {
 ==================================================*/
 
 .top-bar {
-    color: #333;
+    color: #000000;
     padding: 150px 0 150px;
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/header2.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/header2.jpg);
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/gm.jpg);
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/gm.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
