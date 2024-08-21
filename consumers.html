@@ -135,7 +135,92 @@
 
             <p>To help visualize the user’s feelings, we created charts showing the persona’s emotions during each step of the different features, and what improvements we could make for them.
             </p>
-            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV7t8k1x4AjjTnJGh3pow2O%2FDesign-Challenge%3Fnode-id%3D203-8%26t%3DUfX4ChI5ZiFSJM3M-1%26scaling%3Dmin-zoom%26page-id%3D0%253A1%26starting-point-node-id%3D203%253A8" allowfullscreen></iframe>            <p></p>
+
+                        <!-- Code from W3 schools slideshow -->
+                        <div class="slideshow-container">
+
+                            <!-- Full-width images with number and caption text -->
+                            <div class="personas">
+                                <div class="numbertext">1 / 6</div>
+                                <img src="img/consumers/consumers usability testing/Consumers interviews.png" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">Admin/Manager wanting to create a Meetup</div>
+                            </div>
+            
+                            <div class="personas">
+                                <div class="numbertext">2 / 6</div>
+                                <img src="img/consumers/consumers usability testing/Consumers interviews (1).png" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">Engineer using Consumers for the first time, besides accessing through a report link.</div>
+                            </div>
+
+                            <div class="personas">
+                                <div class="numbertext">3 / 6</div>
+                                <img src="img/consumers/consumers usability testing/Consumers interviews (2).png" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">Onboarding when the user has favorited reports already.</div>
+                            </div>
+                            
+                            <div class="personas">
+                                <div class="numbertext">4 / 6</div>
+                                <img src="img/consumers/consumers usability testing/Consumers interviews (4).png" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">Admin managing their business channel or apps.</div>
+                            </div>
+
+                            <div class="personas">
+                                <div class="numbertext">5 / 6</div>
+                                <img src="img/consumers/consumers usability testing/Consumers interviews (5).png" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">Admin browsing Consumers for resources.</div>
+                            </div>
+            
+                            <div class="personas">
+                                <div class="numbertext">6 / 6</div>
+                                <img src="img/consumers/consumers usability testing/Consumers interviews (6).png" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">Engineer finding a meeting to attend.</div>
+                            </div>
+
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides7(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides7(1)">&#10095;</a>
+                        </div>
+                        <br>
+            
+                        <!-- The dots/circles -->
+                        <div style="text-align:center">
+                            <span class="dot7" onclick="currentSlide7(1)"></span>
+                            <span class="dot7" onclick="currentSlide7(2)"></span>
+                            <span class="dot7" onclick="currentSlide7(3)"></span>
+                            <span class="dot7" onclick="currentSlide7(4)"></span>
+                            <span class="dot7" onclick="currentSlide7(5)"></span>
+                            <span class="dot7" onclick="currentSlide7(5)"></span>
+
+                        </div>
+            
+                        <script>
+                            var slideIndex = 1;
+                            showSlides7(slideIndex);
+            
+                            function plusSlides7(n) {
+                                showSlides7(slideIndex += n);
+                            }
+            
+                            function currentSlide7(n) {
+                                showSlides7(slideIndex = n);
+                            }
+            
+                            function showSlides7(n) {
+                                var i;
+                                var slides = document.getElementsByClassName("personas");
+                                var dots = document.getElementsByClassName("dot7");
+                                if (n > slides.length) { slideIndex = 1 }
+                                if (n < 1) { slideIndex = slides.length }
+                                for (i = 0; i < slides.length; i++) {
+                                    slides[i].style.display = "none";
+                                }
+                                for (i = 0; i < dots.length; i++) {
+                                    dots[i].className = dots[i].className.replace(" active", "");
+                                }
+                                slides[slideIndex - 1].style.display = "block";
+                                dots[slideIndex - 1].className += " active";
+                            }
+                        </script> 
             <p></p>
 
             <p>Lastly, we created the list of prioritized changes and discussed it with our managers and some of the developers on the team, to confirm which ones were important and feasible. 
@@ -155,21 +240,234 @@
             <p>Once we gathered our inspo, each of us designed at least 1 option for each feature we wanted to update. 
             </p>
             
-            <p>We had a lot of users who only used one feature of the tool, so I wanted to design a walkthrough feature that activates on the homepage.
+            <p>We had a lot of users who only used one feature of the tool, so I wanted to design a walkthrough feature that activates on the homepage to allow them to learn about all the tools available.
             </p>
-            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV7t8k1x4AjjTnJGh3pow2O%2FConsumers%3Fnode-id%3D213-14%26t%3DiRtSjpheMnQfHEM4-1%26scaling%3Dmin-zoom%26page-id%3D0%253A1%26starting-point-node-id%3D213%253A14%26show-proto-sidebar%3D1" allowfullscreen></iframe>             
+
+            <!-- Code from W3 schools slideshow -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="img/consumers/consumerswireframes/homepage 1.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Popup on arrival allowing users to choose if they want a walkthrough or not.</div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="img/consumers/consumerswireframes/homepage 2.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">If user said Yes to the walkthrough, they will see these pointers, starting with the Favorites feature.</div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="img/consumers/consumerswireframes/homepage 3.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Option to use their work information for recommendations for reports/favorites.</div>
+                </div>
+
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="img/consumers/consumerswireframes/homepage 4.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Job information input with stepper.</div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="img/consumers/consumerswireframes/homepage 5.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Product experience.</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = slides.length }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                }
+            </script>            
             <p></p>
 
 
-            <p>For Meetups, some users felt overwhelmed by information in a lot of places. I tried to focus on things like reducing the information displayed on event tiles.
-            </p>
-            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV7t8k1x4AjjTnJGh3pow2O%2FConsumers%3Fnode-id%3D213-23%26t%3DYcQa2jbd0SeGUf3G-1%26scaling%3Dmin-zoom%26page-id%3D0%253A1%26starting-point-node-id%3D213%253A23%26show-proto-sidebar%3D1" allowfullscreen></iframe>
+            <p>Another Consumers feature we had was Meetups. Meetups are user-created events that anyone could sign up for, such as Power BI trainings.
+                During the usability tests, many users felt overwhelmed by the information on the tiles, so I tried to prioritize and reduce information displayed on event tiles.
+            </p> 
+
+            <!-- Code from W3 schools slideshow -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="meetups-low">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="img/consumers/consumerswireframes/meetups 1.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Meetups homepage. Filters are hidden under the Filters button since they take up a lot of space. Tile information is also reduced.</div>
+                </div>
+
+                <div class="meetups-low">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="img/consumers/consumerswireframes/meetups 2.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Relevant meetup tags shown on hover. Looking back though, I think I should have put the tags in view since they can help users decide if they should attend them.</div>
+                </div>
+
+                <div class="meetups-low">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="img/consumers/consumerswireframes/meetups 3.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Filters container opened.</div>
+                </div>
+
+
+                <div class="meetups-low">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="img/consumers/consumerswireframes/meetups 4.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Meetup selected view.</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot2" onclick="currentSlide2(1)"></span>
+                <span class="dot2" onclick="currentSlide2(2)"></span>
+                <span class="dot2" onclick="currentSlide2(3)"></span>
+                <span class="dot2" onclick="currentSlide2(4)"></span>
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showSlides2(slideIndex);
+
+                function plusSlides2(n) {
+                    showSlides2(slideIndex += n);
+                }
+
+                function currentSlide2(n) {
+                    showSlides2(slideIndex = n);
+                }
+
+                function showSlides2(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("meetups-low");
+                    var dots = document.getElementsByClassName("dot2");
+                    if (n > slides.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = slides.length }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                }
+            </script>            
             <p></p>
 
             
-            <p>There was a lot of confusion surrounding the purpose of some inputs, as well as errors when entering dates. I wanted to provide more information and organize inputs so they wouldn’t cause errors
+            <p>For the Meetup Creation form, there was a lot of confusion surrounding the purpose of some inputs, as well as errors when entering dates. I wanted to provide more information and organize inputs so they wouldn’t cause errors.
             </p>
-            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV7t8k1x4AjjTnJGh3pow2O%2FConsumers%3Fnode-id%3D213-33%26t%3Dd6zRnd6FJJ8Gw7n5-1%26scaling%3Dmin-zoom%26page-id%3D0%253A1%26starting-point-node-id%3D213%253A31%26show-proto-sidebar%3D1" allowfullscreen></iframe>
+
+            <!-- Code from W3 schools slideshow -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="create-low">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="img/consumers/consumerswireframes/meetups form 1.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Added informational i's to save space but also provide more details if needed.</div>
+                </div>
+
+                <div class="create-low">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="img/consumers/consumerswireframes/meetups form 2.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Changed order of date and time inputs to prevent auto errors.</div>
+                </div>
+
+                <div class="create-low">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="img/consumers/consumerswireframes/meetups form 3.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Included an add button and instructions to make the tag adding process more clear</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot3" onclick="currentSlide3(1)"></span>
+                <span class="dot3" onclick="currentSlide3(2)"></span>
+                <span class="dot3" onclick="currentSlide3(3)"></span>
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showSlides3(slideIndex);
+
+                function plusSlides3(n) {
+                    showSlides3(slideIndex += n);
+                }
+
+                function currentSlide3(n) {
+                    showSlides3(slideIndex = n);
+                }
+
+                function showSlides3(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("create-low");
+                    var dots = document.getElementsByClassName("dot3");
+                    if (n > slides.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = slides.length }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                }
+            </script>         
             <p></p>
 
             <p>We then conducted a dot voting exercise with our Team Manager and Project Manager so they could decide on the options they liked the most. When the voting was complete, the other designers and I began working on the final high-fidelity designs.</p>
@@ -180,7 +478,7 @@
                 We worked in Adobe XD for these high-fidelity designs.
             </p>
             
-            <p>The purpose of  the homepage Favorite Groups Reorder feature was to help users sort and keep their favorites organized since they sometimes had to access a lot of reports. 
+            <p>The purpose of  the Homepage Favorite Groups - Reorder feature was to help users sort and keep their favorites organized since they sometimes had to access a lot of reports. 
                 Previously, there was no way for users to even change the order of the tiles.
                 For this feature, I wanted to make sure the button for creating and adding new groups was noticeable, so I added it right above the favorited tiles. 
                 I also wanted to make sure I followed the designs we had for other pages where we add new groups, such as applications and sections to pages, to keep the designs feeling consistent. 
@@ -188,7 +486,126 @@
                 I also added a hover letting them know they can grab and drag the tile.
                 I worked closely with the devs too, to confirm the feasibility of the order of screens and make sure the user’s information could be saved at certain steps.   
             </p>
-            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV7t8k1x4AjjTnJGh3pow2O%2FConsumers%3Fnode-id%3D297-13%26t%3DlstLJpFVEPIh0Ag0-1%26scaling%3Dmin-zoom%26content-scaling%3Dfixed%26page-id%3D0%253A1%26starting-point-node-id%3D297%253A13%26show-proto-sidebar%3D1" allowfullscreen></iframe>
+            
+            <!-- Code from W3 schools slideshow -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="reorder">
+                    <div class="numbertext">1 / 11</div>
+                    <img src="img/consumers/reorder/Reorder 1.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Home page. Users can select the 'New Group' button to create a new group.</div>
+                </div>
+
+                <div class="reorder">
+                    <div class="numbertext">2 / 11</div>
+                    <img src="img/consumers/reorder/Reorder 2.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">New group naming popup.</div>
+                </div>
+
+                <div class="reorder">
+                    <div class="numbertext">3 / 11</div>
+                    <img src="img/consumers/reorder/Reorder 3.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">New group created but no tiles currently in it. User needs to select the 'Reorder button' to move groups and tiles around.</div>
+                </div>
+
+                <div class="reorder">
+                    <div class="numbertext">4 / 11</div>
+                    <img src="img/consumers/reorder/Reorder 4.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">After selecting the Reorder button. Users can drag tiles around or click the more icon next to each Group name.</div>
+                </div>
+
+                <div class="reorder">
+                    <div class="numbertext">5 / 11</div>
+                    <img src="img/consumers/reorder/Reorder 5.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Dragging tile to a new group, users will see when the tile can be let go.</div>
+                </div>
+
+                <div class="reorder">
+                    <div class="numbertext">6 / 11</div>
+                    <img src="img/consumers/reorder/Reorder 6.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Tile placed in another group.</div>
+                </div>
+
+                <div class="reorder">
+                    <div class="numbertext">7 / 11</div>
+                    <img src="img/consumers/reorder/Reorder 7.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Users can edit the group name by selecting the more icon.</div>
+                </div>
+
+                <div class="reorder">
+                    <div class="numbertext">8 / 11</div>
+                    <img src="img/consumers/reorder/Reorder 8.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Users can delete groups by selecting the more icon.</div>
+                </div>
+
+                <div class="reorder">
+                    <div class="numbertext">9 / 11</div>
+                    <img src="img/consumers/reorder/Reorder 9.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Users can reorder groups by selecting the 'Reorder Groups' button then dragging the corresponding tile around. This follows the current design for reordering elements in other pages and features.</div>
+                </div>
+
+                <div class="reorder">
+                    <div class="numbertext">10 / 11</div>
+                    <img src="img/consumers/reorder/Reorder 10.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">When users select the back button or tries to navigate away, they will see the save changes popup. I think I should have added an actual save button on the page though.</div>
+                </div>
+
+                <div class="reorder">
+                    <div class="numbertext">11 / 11</div>
+                    <img src="img/consumers/reorder/Reorder 11.png" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Included an add button and instructions to make the tag adding process more clear</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides4(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides4(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot4" onclick="currentSlide4(1)"></span>
+                <span class="dot4" onclick="currentSlide4(2)"></span>
+                <span class="dot4" onclick="currentSlide4(3)"></span>
+                <span class="dot4" onclick="currentSlide4(4)"></span>
+                <span class="dot4" onclick="currentSlide4(5)"></span>
+                <span class="dot4" onclick="currentSlide4(6)"></span>
+                <span class="dot4" onclick="currentSlide4(7)"></span>
+                <span class="dot4" onclick="currentSlide4(8)"></span>
+                <span class="dot4" onclick="currentSlide4(9)"></span>
+                <span class="dot4" onclick="currentSlide4(10)"></span>
+                <span class="dot4" onclick="currentSlide4(11)"></span>
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showSlides4(slideIndex);
+
+                function plusSlides4(n) {
+                    showSlides4(slideIndex += n);
+                }
+
+                function currentSlide4(n) {
+                    showSlides4(slideIndex = n);
+                }
+
+                function showSlides4(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("reorder");
+                    var dots = document.getElementsByClassName("dot4");
+                    if (n > slides.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = slides.length }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                }
+            </script>  
             <p></p>
 
             <p>For the Meetups creation form, the main issue users had was with the error messages like when entering or selecting a start date. 
@@ -196,8 +613,114 @@
                 I also added some more instructions with informational i’s since some users weren’t sure about some inputs. 
                 With the tags input, users thought they needed a comma separated list, so I provided clarity on that right above the input.
             </p>
-            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV7t8k1x4AjjTnJGh3pow2O%2FConsumers%3Fnode-id%3D213-77%26t%3D4g6Cdmvr8qZEqyfy-1%26scaling%3Dmin-zoom%26page-id%3D0%253A1%26starting-point-node-id%3D213%253A77%26show-proto-sidebar%3D1" allowfullscreen></iframe>
-            <p></p>
+
+           <!-- Code from W3 schools slideshow -->
+           <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="form">
+                <div class="numbertext">1 / 9 </div>
+                <img src="img/consumers/creation form/Create a Meetup Dialog 1.png" alt="" class="img-responsive" id="wiki" />
+                <div class="text">New Create Meetup dialog look.</div>
+            </div>
+
+            <div class="form">
+                <div class="numbertext">2 / 9</div>
+                <img src="img/consumers/creation form/Create a Meetup Dialog 2.png" alt="" class="img-responsive" id="wiki" />
+                <div class="text">Selection options for in-person and online meetings.</div>
+            </div>
+
+            <div class="form">
+                <div class="numbertext">3 / 9</div>
+                <img src="img/consumers/creation form/Create a Meetup Dialog 3.png" alt="" class="img-responsive" id="wiki" />
+                <div class="text">Meetup frequency selection, once option.</div>
+            </div>
+
+            <div class="form">
+                <div class="numbertext">4 / 9</div>
+                <img src="img/consumers/creation form/Create a Meetup Dialog 4.png" alt="" class="img-responsive" id="wiki" />
+                <div class="text">Meetup frequency selection, weekly option similar to other Maxis products.</div>
+            </div>
+
+            <div class="form">
+                <div class="numbertext">5 / 9</div>
+                <img src="img/consumers/creation form/Create a Meetup Dialog 5.png" alt="" class="img-responsive" id="wiki" />
+                <div class="text">Meetup frequency selection, monthly option similar to other Maxis products.</div>
+            </div>
+
+            <div class="form">
+                <div class="numbertext">6 / 9</div>
+                <img src="img/consumers/creation form/Create a Meetup Dialog 6.png" alt="" class="img-responsive" id="wiki" />
+                <div class="text">Adding tags and associating meetup with a Consumers Application or Business Channel.</div>
+            </div>
+
+            <div class="form">
+                <div class="numbertext">7 / 9</div>
+                <img src="img/consumers/creation form/Create a Meetup Dialog 7.png" alt="" class="img-responsive" id="wiki" />
+                <div class="text">Tags and Associate Meetups fields filled out.</div>
+            </div>
+
+            <div class="form">
+                <div class="numbertext">8 / 9</div>
+                <img src="img/consumers/creation form/Create a Meetup Dialog 8.png" alt="" class="img-responsive" id="wiki" />
+                <div class="text">Last step is Review, users will see an example of what the tile will look like before submitting.</div>
+            </div>
+
+            <div class="form">
+                <div class="numbertext">9 / 9</div>
+                <img src="img/consumers/creation form/Create a Meetup Dialog 9.png" alt="" class="img-responsive" id="wiki" />
+                <div class="text">Once user selects 'Submit' they will see a toast saying the Meetup was successfully created. They can also select the link to view the Meetup page</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides5(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides5(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot5" onclick="currentSlide5(1)"></span>
+            <span class="dot5" onclick="currentSlide5(2)"></span>
+            <span class="dot5" onclick="currentSlide5(3)"></span>
+            <span class="dot5" onclick="currentSlide5(4)"></span>
+            <span class="dot5" onclick="currentSlide5(5)"></span>
+            <span class="dot5" onclick="currentSlide5(6)"></span>
+            <span class="dot5" onclick="currentSlide5(7)"></span>
+            <span class="dot5" onclick="currentSlide5(8)"></span>
+            <span class="dot5" onclick="currentSlide5(9)"></span> 
+        </div>
+
+        <script>
+            var slideIndex = 1;
+            showSlides5(slideIndex);
+
+            function plusSlides5(n) {
+                showSlides5(slideIndex += n);
+            }
+
+            function currentSlide5(n) {
+                showSlides5(slideIndex = n);
+            }
+
+            function showSlides5(n) {
+                var i;
+                var slides = document.getElementsByClassName("form");
+                var dots = document.getElementsByClassName("dot5");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script> 
+
+        <p></p>
 
             <p>During this time and our usability tests, the website was also having some issues with responsiveness. 
                 I redesigned some elements on the Meetups page for the tiles to be displayed without cutting information off. 
@@ -211,7 +734,86 @@
                 Once filters were applied, the container would close but a chip for each filter would be visible. 
                 Users can also select the X on the chip to get rid of them, so they don’t have to click through the filter window again.
             </p>
-            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV7t8k1x4AjjTnJGh3pow2O%2FConsumers%3Fnode-id%3D213-139%26t%3DbZPe5BCUCyh1cOE7-1%26scaling%3Dmin-zoom%26page-id%3D0%253A1%26starting-point-node-id%3D213%253A139%26show-proto-sidebar%3D1" allowfullscreen></iframe>
+
+                        <!-- Code from W3 schools slideshow -->
+                        <div class="slideshow-container">
+
+                            <!-- Full-width images with number and caption text -->
+                            <div class="filters">
+                                <div class="numbertext">1 / 5</div>
+                                <img src="img/consumers/meetups filters/Web 1280 1.png" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">Added a 'View my previous meetups' Button and a 'Filters' Button.</div>
+                            </div>
+            
+                            <div class="filters">
+                                <div class="numbertext">2 / 5</div>
+                                <img src="img/consumers/meetups filters/Web 1280 2.png" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">Changed the layout of the view when selecting a Meetup. Moved information around and changed the look of the 'Edit' button to be more noticeable/stark.</div>
+                            </div>
+
+                            <div class="filters">
+                                <div class="numbertext">3 / 5</div>
+                                <img src="img/consumers/meetups filters/Web 1280 3.png" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">Open 'Filters' button. Looking back, I would have changed the color of the button when selected</div>
+                            </div>
+
+                            <div class="filters">
+                                <div class="numbertext">4 / 5</div>
+                                <img src="img/consumers/meetups filters/Web 1280 4.png" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">Users can set a date/time frame and they can select any tags to see associated meetups. Once they've made all selections, they can press the 'Update Results' Button.</div>
+                            </div>
+            
+
+                            <div class="filters">
+                                <div class="numbertext">5 / 5</div>
+                                <img src="img/consumers/meetups filters/Web 1280 5.png" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">View when filters are selected and the Filter pane is closed. Users can quickly delete the icon for the tag.</div>
+                            </div>
+            
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides6(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides6(1)">&#10095;</a>
+                        </div>
+                        <br>
+            
+                        <!-- The dots/circles -->
+                        <div style="text-align:center">
+                            <span class="dot6" onclick="currentSlide6(1)"></span>
+                            <span class="dot6" onclick="currentSlide6(2)"></span>
+                            <span class="dot6" onclick="currentSlide6(3)"></span>
+                            <span class="dot6" onclick="currentSlide6(4)"></span>
+                            <span class="dot6" onclick="currentSlide6(5)"></span>
+                        </div>
+            
+                        <script>
+                            var slideIndex = 1;
+                            showSlides6(slideIndex);
+            
+                            function plusSlides6(n) {
+                                showSlides6(slideIndex += n);
+                            }
+            
+                            function currentSlide6(n) {
+                                showSlides6(slideIndex = n);
+                            }
+            
+                            function showSlides6(n) {
+                                var i;
+                                var slides = document.getElementsByClassName("filters");
+                                var dots = document.getElementsByClassName("dot6");
+                                if (n > slides.length) { slideIndex = 1 }
+                                if (n < 1) { slideIndex = slides.length }
+                                for (i = 0; i < slides.length; i++) {
+                                    slides[i].style.display = "none";
+                                }
+                                for (i = 0; i < dots.length; i++) {
+                                    dots[i].className = dots[i].className.replace(" active", "");
+                                }
+                                slides[slideIndex - 1].style.display = "block";
+                                dots[slideIndex - 1].className += " active";
+                            }
+                        </script> 
+
             <p></p>
 
             <p>After creating the designs, I made the functional prototypes including hover and select states. I then handed them to the developers.
