@@ -1284,7 +1284,16 @@ textarea:focus {
     color: #fff;
 }
 
+#resume {
+    border:1px solid;
+    border-radius: 6px;
+    border-color: #50C878;
+    background: #50C878;
+}
 
+#resume a {
+    color: white;
+}
 /* single project page
 ==================================================*/
 
