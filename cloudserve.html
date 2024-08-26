@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>General Motors - cloudServe</title>
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- main css -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <!-- modernizr -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end Preloader -->
+
+    <div class="container-fluid">
+        <!-- box-header -->
+        <header class="box-header">
+            <div class="box-logo">
+            </div>
+            <!-- box-nav -->
+            <a class="box-primary-nav-trigger" href="#0">
+                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
+            </a>
+            <!-- box-primary-nav-trigger -->
+        </header>
+        <!-- end box-header -->
+
+        <!-- nav -->
+        <nav>
+            <ul class="box-primary-nav">
+                <li class="box-label">About me</li>
+
+                <li><a href="about.html">About me</a></li>
+                <li><a href="index.html">portfolio</a> <i class="ion-ios-circle-filled color"></i></li>
+
+            </ul>
+        </nav>
+        <!-- end nav -->
+    </div>
+
+    <!-- top-bar -->
+    <div class="top-bar">
+        <h1>GM cloudServe</h1>
+        <p><a href="index.html">Home</a> / <a href="index.html">portfolio</a> / cloudServe</p>
+    </div>
+    <!-- end top-bar -->
+
+    <!-- main-container -->
+    <div class="container main-container">
+        <div class="col-md-12">
+            <img src="img/cloudserve/thumbnail.svg" alt="" class="img-responsive" />
+            <div class="h-30"></div>
+        </div>
+
+        <div class="col-md-12">
+            <h3 class="text-uppercase">cloudServe</h3>
+            <h5>A new tool that automates cloud account and subscription requests, along with providing archetypes to speed up users' workflows.</h5>
+            <div class="h-30"></div>
+        </div>
+
+        <div class="col-md-9">
+            <p>As GM continues transitioning to the cloud, users will need access to cloud providers like AWS and Azure to complete their work, like developing new applications. 
+                We also need to provide Technical Architecture Diagrams and Templates to make sure users follow the same standard workflows to prevent costs from driving up.
+                Our team needed to create a product to help users access cloud providers and share their work on the cloud. 
+                For this project I worked on a team with two other UX Designers. 
+                Some of my tasks included UX Research, UX and UI Design, and Marketing Content.
+            </p>
+
+            <h5>The problem</h5>
+            <p><b>1. There is no consistent way for a user to get a cloud resource.</b>
+                Users aren’t sure how they can request their own Azure Subscription. 
+                Sometimes they have to reach out to the CCOE organization, but other times the organization isn’t able to help users obtain a subscription. 
+                There are also restrictions around which orgs can request a subscription, but there is no documentation or reasoning provided.
+            </p>
+
+            <p><b>2. Getting access to data can take a long time.</b>
+                Users need to look around and message people to get access to data they need. 
+                Users would like to gain immediate visibility into what table and data sources are available to them or not so they don’t have to wait or search around before beginning their work.
+            </p>
+
+            <p><b>3. Lack of Documentation.</b>
+                There are no coding or pricing standards shared across the org. 
+                Users need documentation to know about the cloud resource request process and to make sure they are not spending more money than needed on their cloud resources. 
+                Each team has their own TAD’s but users believe TAD’s might have some overlap with each other. 
+                They would like to view a plethora of TAD’s and see which is most applicable to their work. 
+            </p>
+
+            <h5>Solution</h5>
+            <p>A tool that automates the request process, accessible by anyone at the company. 
+                Resources and help links will also be provided so users know what selections to make when filling out the request form, as well as letting them know the coding standards to follow. 
+                We will also provide templates/archetypes to help users get started with common tasks like Streaming Data to 3rd parties and Delta Table Sharing. 
+            </p>
+
+            <h5>User Interviews</h5>
+            <p>Our team began by learning about the transition to the cloud. 
+                During meetings with other organizations, we learned there was a space for a new product to simplify the request process. 
+                Afterward, the UX Team along with our PM and Manager decided to conduct user interviews with workers who currently work in the cloud.
+                The goal was to learn about their process and pain points they have when trying to complete their work. 
+                The interviews were semi-structured to allow users to talk about any relevant products and experiences. 
+                We wanted to learn about who they are, including their goals, needs, pain points and behaviors.
+            </p>
+
+            <p>Our interviews consisted of 4 participants with 3 different user types
+            <ul>
+                <li>1 Architect</li>
+                <li>1 Engineer Lead</li>
+                <li>2 Developers</li>
+            </ul>
+            </p>
+
+            <h5>Personas</h5>
+
+            <p>A common finding was that users didn't know how to request access to different data sources, and when they were able to request access, the request could take months to complete.</p>
+
+            <p>After summarizing our notes, we created two personas to encapsulate the behaviors and pain points from the interviews.
+            </p>
+
+            <p>The first persona is Senior Architect who leads his team in working with cloud data in Azure and creates TADs for them. 
+                He struggles with finding and providing resource documentation. 
+                His biggest pain point is that his data access requests take a long time to be approved.
+                He would like to have more automated processes, but understands someone still has to go in and set them up, which might take a long time anyway.
+            </p>
+
+            <img src="img/cloudserve/User Persona - Jerry.svg" class="img-responsive">
+            <p>&nbsp;</p>
+
+            <p>The second persona is a Software Developer who works in Github and ADO to productionalize. 
+                He also works with architects to get TADs built, but this can take a long time if the architects have a lot of requests. 
+                He too struggles with getting access to data, despite submitting a request. 
+                If he is working on a project and needs to change information like the number of needed IP’s, there is no clear path. 
+                He doesn’t know who to contact or where to find documentation.
+            </p>
+
+            <img src="img/cloudserve/User Persona - Tom.svg" class="img-responsive">
+            <p>&nbsp;</p>
+
+            <h5>Checkpoint</h5>
+            <p>We shared our findings with our manager, PM, and director to make sure everyone was on the same page about what our users needed and what was feasible. 
+                We still needed to research different cloud platforms though to learn more about possible designs and restrictions though.
+            </p>
+
+            <h5>Cloud Research</h5>
+            <p>While we learned about the different cloud tools from our user interviews and meetings with stakeholders, my team and I still felt there was room for us to learn. 
+                We researched more about AWS, Azure, GCP, Terraform, and ServiceNow. 
+                Our devs also conducted their own spikes and together we learned about the capabilities of each platform. 
+                From Terraform, I learned it has the ability to create workspaces and work with AWS, Azure, and Kubernetes. 
+                I also learned that ServiceNow has forms with different configurations. 
+            </p>
+
+            <img src="img/cloudserve/cloud-research.png" class="img-responsive">
+            <p>&nbsp;</p>
+
+            <p>We presented our findings and recommendations to management. 
+                After some conversations, we got a list of requirements for V1. 
+                We will be creating a homepage with the user’s requests and their statuses, along with a form the user fills out to request an AWS account or Azure Subscription, similar to some ServiceNow Forms. 
+                Terraform and a few other platforms will be used in the back-end to automatically provision user requests. 
+            </p>
+
+            <h5>User Flow</h5>
+            <p>Before sketching, we start by creating user flows to map the user’s current and future paths to complete their goals. 
+                We do this to compare the differences and to have the future flow to refer to later in the design process.
+            </p>
+
+            <p>We each create our own user flows and then share with each other to combine them into one flow for each scenario. 
+                This ensures we think of every possible step without bias from each other. 
+            </p>
+
+            <p>After creating the final user flows, we added sticky notes around the steps with key information that we will likely return to when sketching. 
+                We added pink notes around steps where we had questions and purple notes around areas of opportunity to keep in mind while sketching. 
+            </p>
+
+            <img src="img/cloudserve/user-flow.svg" class="img-responsive">
+            <p>&nbsp;</p>
+
+            <h5>Design Inspiration</h5>
+            <p>The last step before designing is to look for Design inspiration for similar features. 
+                We shared our findings with each other to make sure everyone has as many ideas as possible. 
+                Using this inspiration and our previous research on cloud platforms, we began sketching with Crazy 8’s.
+            </p>
+
+            <img src="img/cloudserve/inspo.svg" class="img-responsive">
+            <p>&nbsp;</p>
+
+            <h5>Crazy 8's</h5>
+            <p>I didn’t have pen and paper to draw the crazy 8’s so I did my best to make low-fidelity wireframes and draw elements using my mouse.
+            </p>
+
+            <img src="img/cloudserve/crazy.svg" class="img-responsive">
+            <p>&nbsp;</p>
+
+            <h5>Information architecture</h5>
+            <p>After seeing how different some of our options were from the crazy 8’s, along with our remaining questions from the user flows, we knew we needed to confirm the final information architecture. 
+                We met with our stakeholders again to go over what we knew. Once we were all on the same page, we put together a site map. 
+                This helped us determine the content we wanted to include on the homepage, including the tiles and the information to display on them. 
+                We also decided on the inputs that would be included in the form, along with the information that would show after the user submits the form.
+            </p>
+
+            <img src="img/cloudserve/sitemap.svg" class="img-responsive">
+            <p>&nbsp;</p>
+
+            <h5>Low-Fidelity Designs</h5>
+            <p>After confirming the information architecture, we began designing low-fidelity wireframes. 
+                Using some of our options from crazy 8’s, we created different options for the homepage and request form pages. 
+            </p>
+
+            <p>Below are some of the wireframes I designed as well as a description for each option.
+            </p>
+
+            <h6>Homepage</h6>
+            <p>Users would see any account requests submitted. 
+                The tile would show the progress/status, the name of the account, and the link they can select to navigate to it in the cloud platform. 
+                At the time, I forgot to add a way for users to get to the form since I wasn't sure if we wanted a button on the homepage or a tab instead.</p>
+            <img src="img/cloudserve/lfw-homepage.svg" class="img-responsive">
+            <p>&nbsp;</p>
+
+            <h6>Request form</h6>
+            <p>The form would automate the request process by making it so users don’t have to message other users or navigate directly to the different cloud platforms to request an account or subscription.
+                Users will be able to input all their information in the form and submit it. Users can look at TADs</p>
+            <img src="img/cloudserve/lfw-form-1.svg" class="img-responsive">
+            <p>&nbsp;</p>
+
+            <p>After submitting, they will see the status of the request as well as how to access their account. I also provided contact details in case they had any questions about the status of their account.</p>
+            <img src="img/cloudserve/lfw-form-2.svg" class="img-responsive">
+            <p>&nbsp;</p>
+
+
+            <p>The design team and the Team Manager and PM voted on our favorite elements from each option. 
+                Once the most popular options were identified, we combined them into new pages. 
+                Since we were given a week to finish this first iteration, we decided to split up the work and by having one person work on each feature. 
+                I decided to work on the homepage this time.
+            </p>
+
+            <h5>Prototyping V1 Final Designs</h5>
+            <p>For this product’s theme, we decided to follow the same one as our new data catalog product since these two products marked our start of creating cloud tools. 
+                The light theme with subtle blues would help the users digest important information and make sure they don’t make mistakes. 
+                We used contrasting reds for error messages and vibrant greens to mark important buttons like for submitting the form. 
+                We made sure to use accessible colors by checking the contrast between each color/object and its background.
+            </p>
+            <p>Below are the final designs for the homepage, along with the reasoning for the design choices. 
+                We had a few high-fidelity screens we iterated on based on stakeholder feedback. 
+                These designs have integrated that feedback.
+            </p>
+            <p>Homepage for first time user. 
+                I created the banner with some opaque graphics to bring attention to the main functionality of the tool, without being too distracting. 
+                We also added instructions to let the user know how to get started. 
+                I added the resources at the bottom to serve almost as a footer since there may be different pages where the user will need to access them.
+            </p>
+
+            <img src="img/cloudserve/homepage-first-time-user.svg" class="img-responsive">
+            <p>&nbsp;</p>
+
+            <p>The homepage will also allow users to manage their accounts and subscriptions. 
+                On the tiles, I added metadata including an icon for the cloud provider, Account Name, Status information, Environment information, and ASMS (on-prem application/project) associated with the cloud resource. 
+                The Status will give users some clarity on whether their request is still in progress. 
+                There is also an open button so they can access their information on AWS or Azure. 
+                If there is an error with a request, the tile status will show error and we will display an error message.
+            </p>
+
+            <img src="img/cloudserve/homepage-with-tiles.svg" class="img-responsive">
+            <p>&nbsp;</p>
+
+            <p>These designs help solve users frustrations with a lack of documentation and provide the user clear communication about their request status, as well as any error information they may need to know.</p>
+
+            <h5>V2 - Archetypes</h5>
+            <p>From earlier meetings with our director, we knew the templates we wanted to include, now called Archetypes, were going to be added for V2. 
+                Because the back-end process was still being determined, there was a lot of uncertainty on how Archetypes would work and what inputs would be required from the user. 
+                We also knew that Archetypes would only be usable for Azure Subscriptions and not AWS Accounts. 
+                These archetypes would also help solve the user’s problem of not having access to certain data and also seeing TADs and flows used by other people.
+            </p>
+
+            <h5>Archetype Workshops</h5>
+            <p>The UX team and I conducted multiple workshops to determine the inputs needed from users and to help the developers talk about how they would make the process work. 
+                Together with our developers and the architects in the organization, we talked through the user flow. 
+                During the meetings, I helped build out the user flows and ask clarifying questions. I also moderated and led some of the sessions. 
+                We would make sure to clean up the flows after each workshop and then we went over them at the beginning of the next workshop to make sure the process we wrote down was still accurate.
+            </p>
+            <p>There were a lot of things to consider: 
+                What’s possible in the back-end with Terraform and ServiceNow? 
+                What are the differences between having users use their own ASMS subscription or the Maxis Subscription? 
+                What attestations will need to be made if the user is sharing data externally or internally?
+            </p>
+            
+            <h5>Archetype User Flows</h5>
+            <p>This is the final flow for using archetypes as well as the final flows for the first two archetypes we would include in cloudServe.
+            </p>
+
+            <p>General flow for Archetypes.</p>
+            <img src="img/cloudserve/main-flow.svg" class="img-responsive">
+            <p>&nbsp;</p>
+
+            <p>The first archetype is Delta sharing. 
+                This archetype will provision a Databricks workspace that has been configured for performant and secure delta table sharing with 3rd parties.
+                Users will be required to fill out a Data Sharing Agreement.</p>
+            <img src="img/cloudserve/delta-sharing-flow.svg" class="img-responsive">
+            <p>&nbsp;</p>
+            
+            <p>The second archetype is Streaming Data. 
+                This archetype provides a set of resources to demonstrate streaming data being shared across multiple event hubs.</p>
+            <img src="img/cloudserve/streaming-data-flow.svg" class="img-responsive">
+            <p>&nbsp;</p>
+
+            <h5>Final V2 Designs</h5>
+            <p>The designs were determined by the user flows, which in turn were determined by the Terraform Inputs the user has to fill out. 
+                We used the same look for the forms as the form in V1. Unfortunately, there were some processes we couldn’t automate. 
+                When streaming data to 3rd parties, users have to fill out two Service Principle requests using another enterprise tool at GM called Galileo.
+            </p>
+
+            <p>We did another cycle of crazy 8's, low-fidelity wireframes, and dot voting. 
+                To view what I made there, see the appendix at the end of the page.
+            </p>
+
+                <h6>Updated Homepage</h6>
+
+                <p>The homepage had to be updated to account for the ability to use archetypes as well as provision infrastructure or decommission a cloud resource.
+                    We also got rid of the option to create new Azure subscriptions since that process would be replaced by ServiceNow in the future. 
+                    For the new homepage, we made the nav a side nav instead. 
+                    I organized the tabs by cloud provider along with the updated features we would have for each one.
+                    I also had the idea to organize the metadata into a table format instead to show the labels for them more clearly. 
+                    We also added a 'More' button under Actions with options to decommission the resource or to provision infrastructure.
+                    Lastly tabs were added above the table to provide for better organization and searchability when the user has a lot of cloud resources.
+                </p>
+            <img src="img/cloudserve/new-homepage-more.svg" class="img-responsive">
+            <p>&nbsp;</p>
+
+            <h6>Delta Sharing Archetype</h6>
+           
+            <!-- Code from W3 schools slideshow -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides">
+                    <div class="numbertext">1 / 10</div>
+                    <img src="img/cloudserve/DS1 - Add Archetypes - external.svg" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">User starts from homepage then selects green Add cloudServe Archetypes or tab on the side nav.</div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 10</div>
+                    <img src="img/cloudserve/DS2 -Archetypes Page.svg" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Archetype Selector. User can read info about each archetype and see the associated TAD, user presses 'Add' to select an archetype. This addresses need to see more TADs from user interviews</div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 10</div>
+                    <img src="img/cloudserve/DS3 -add archetypes external path.svg" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">User decides whether the archetype is going to the Maxis Subscription or another ASMS Subscription. Archetypes in the Maxis Subscription are meant as sandboxes and will expire after some time.</div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 10</div>
+                    <img src="img/cloudserve/DS4 - add archetypes external path.svg" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Other ASMS Azure Subscriptions selected. Users will see a dropdown of subscriptions to pick from. They can also create a new subscription in ServiceNow instead.</div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 10</div>
+                    <img src="img/cloudserve/DS5 - sharing location.svg" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Data sharing location. This is where the Delta Sharing flow will diverge. If the user selects GM internal, they will be done after filling out the form. GM External will require the user to fill out a data sharing agreement and a data exemption request.</div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 10</div>
+                    <img src="img/cloudserve/DS6 - form - external sharing.svg" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Form inputs for Terraform followed by a confirmation/review page.</div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 10</div>
+                    <img src="img/cloudserve/DS8 - home - archetype first created - url generated  - attestation submitted.svg" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">After submitting the form, users will need to agree to the popup to certify the understand the extra requests.</div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 10</div>
+                    <img src="img/cloudserve/DS10 - home - archetype first created - url generated.svg" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Users will see all the information they need to complete the exemption request. There is a button available on the tile to attest the exemption and finalize the archetype.</div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">9 / 10</div>
+                    <img src="img/cloudserve/DS11 - attest exemption dialog.svg" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Exemption Request Attestation Popup.</div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">10 / 10</div>
+                    <img src="img/cloudserve/DS12 -home - archetype first created - url generated  - attestation submitted.svg" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">After the user submits the attestation, they will see a toast letting them know it was approved. The archetype will now be ready to be used.</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(9)"></span>
+                <span class="dot" onclick="currentSlide(10)"></span>
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = slides.length }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                }
+            </script>
+            <p>&nbsp;</p>
+            
+            <h6>Streaming Data Archetype</h6>
+                        <!-- Code from W3 schools slideshow -->
+                        <div class="slideshow-container">
+
+                            <!-- Full-width images with number and caption text -->
+                            <div class="meetups-low">
+                                <div class="numbertext">1 / 12</div>
+                                <img src="img/cloudserve/SD1 - Archetypes - internal.svg" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">From the homepage user can select 'Add cloudServe Archetypes' or select the tab on the side.</div>
+                            </div>
+            
+                            <div class="meetups-low">
+                                <div class="numbertext">2 / 12</div>
+                                <img src="img/cloudserve/SD2 - add archetype - maxis subscription.svg" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">Archetype selector. We added a warning message about the extra requests needed for the Streaming Data archetype.</div>
+                            </div>
+            
+                            <div class="meetups-low">
+                                <div class="numbertext">3 / 12</div>
+                                <img src="img/cloudserve/SD3 - add archetype - personal subscription - where is this going.svg" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">Select which subscription the archetype is going in. Inputs will change slightly between Maxis vs other subscriptions. 
+                                    For later requests, users will also need to obtain the information from a Maxis team member by emailing the support email.</div>
+                            </div>
+            
+                            <div class="meetups-low">
+                                <div class="numbertext">4 / 12</div>
+                                <img src="img/cloudserve/SD4 - add archetype - personal subscription - where is this going.svg" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">For Other Subscriptions, user selects from dropdown or selects the 'Create New Subscription' button</div>
+                            </div>
+
+                            <div class="meetups-low">
+                                <div class="numbertext">5 / 12</div>
+                                <img src="img/cloudserve/SD5 - add archetypes personal subscription form.svg" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">Inputs required by Terraform that the user needs to fill out, followed by a confirmation page.</div>
+                            </div>
+
+                            <div class="meetups-low">
+                                <div class="numbertext">6 / 12</div>
+                                <img src="img/cloudserve/SD6 - home - archetype first created - url generated  - attestation submitted.svg" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">Users will see this popup after submitting the form. 
+                                    It lets them know about the 3 requests the user will need to fill out outside of cloudServe.
+                                    They will need to come back and provide the information from each request.</div>
+                            </div>
+
+                            <div class="meetups-low">
+                                <div class="numbertext">7 / 12</div>
+                                <img src="img/cloudserve/SD7 - home - archetype first created.svg" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">Tile will show the requests the user still needs to fill out and attest, as well as links and guides to help them.</div>
+                            </div>
+
+                            <div class="meetups-low">
+                                <div class="numbertext">8 / 12</div>
+                                <img src="img/cloudserve/SD8 - attest exemption dialog.svg" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">Attest Data Exemption Popup.</div>
+                            </div>
+
+                            <div class="meetups-low">
+                                <div class="numbertext">9 / 12</div>
+                                <img src="img/cloudserve/SD9 - add archetypes - maxis subscription - internal form.svg" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">Save Internal Service Principal. The internal service principal is for GM to know what the data is and what is being done with it. 
+                                    We decided to go with a page instead of a popup to be more clear since there are more inputs than with the exemption attestation.
+                                It is important the user inputs the exact information so we also give them a chance to review their inputs.</div>
+                            </div>
+
+                            <div class="meetups-low">
+                                <div class="numbertext">10 / 12</div>
+                                <img src="img/cloudserve/SD10 - home - archetype first created.svg" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">As the User completes their tasks, they will get a check mark next to them to mark them as completed. 
+                                    The number of completed tasks will also increase.</div>
+                            </div>
+
+                            <div class="meetups-low">
+                                <div class="numbertext">11 / 12</div>
+                                <img src="img/cloudserve/SD11 - add archetypes - maxis subscription - external form.svg" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">Save External Service Principal. This service principal allows the actual 3rd party to see the data from GM. 
+                                    Even though there is only one input, we went with a page followed by a confirmation/review so the user has a chance to correct any mistakes. 
+                                    It also keeps it consistent with saving the internal service principal.</div>
+                            </div>
+
+                            <div class="meetups-low">
+                                <div class="numbertext">12 / 12</div>
+                                <img src="img/cloudserve/SD12 home - archetype completed maxisx subscription - toast.svg" alt="" class="img-responsive" id="wiki" />
+                                <div class="text">The user will see a toast saying Complete once the last task is complete to let them know the archetype is ready to be used.
+                                    The archetype tile will also have a check mark next to it.</div>
+                            </div>
+
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+                        </div>
+                        <br>
+            
+                        <!-- The dots/circles -->
+                        <div style="text-align:center">
+                            <span class="dot2" onclick="currentSlide2(1)"></span>
+                            <span class="dot2" onclick="currentSlide2(2)"></span>
+                            <span class="dot2" onclick="currentSlide2(3)"></span>
+                            <span class="dot2" onclick="currentSlide2(4)"></span>
+                            <span class="dot2" onclick="currentSlide2(5)"></span>
+                            <span class="dot2" onclick="currentSlide2(6)"></span>
+                            <span class="dot2" onclick="currentSlide2(7)"></span>
+                            <span class="dot2" onclick="currentSlide2(8)"></span>
+                            <span class="dot2" onclick="currentSlide2(9)"></span>
+                            <span class="dot2" onclick="currentSlide2(10)"></span>
+                            <span class="dot2" onclick="currentSlide2(11)"></span>
+                            <span class="dot2" onclick="currentSlide2(12)"></span>
+                        </div>
+            
+                        <script>
+                            var slideIndex = 1;
+                            showSlides2(slideIndex);
+            
+                            function plusSlides2(n) {
+                                showSlides2(slideIndex += n);
+                            }
+            
+                            function currentSlide2(n) {
+                                showSlides2(slideIndex = n);
+                            }
+            
+                            function showSlides2(n) {
+                                var i;
+                                var slides = document.getElementsByClassName("meetups-low");
+                                var dots = document.getElementsByClassName("dot2");
+                                if (n > slides.length) { slideIndex = 1 }
+                                if (n < 1) { slideIndex = slides.length }
+                                for (i = 0; i < slides.length; i++) {
+                                    slides[i].style.display = "none";
+                                }
+                                for (i = 0; i < dots.length; i++) {
+                                    dots[i].className = dots[i].className.replace(" active", "");
+                                }
+                                slides[slideIndex - 1].style.display = "block";
+                                dots[slideIndex - 1].className += " active";
+                            }
+                        </script>
+                        <p>&nbsp;</p>
+
+            <h5>Conclusion</h5>
+            <p>cloudServe was a great experience designing for a different aspect of the cloud space. 
+                I learned a lot about the cloud providers we would be using and their technical capabilities. 
+                I got a better idea about the feasibility of different solution ideas.
+            </p>
+            <p>There was a lot of uncertainty about Archetypes but our workshops really helped finalize the solutions we needed. 
+                When cleaning up the flows after the workshops, I was able to come to some of the right conclusions and assumptions based on patterns we saw from the user research and our independent cloud research. 
+                I felt good about making these assumptions, but my team and I still had questions about the flows. 
+                I wasn’t afraid to ask questions and I wanted to make sure the flow was totally correct to prevent errors in the future. 
+                I did as much independent research as I could on my own before asking others for help. 
+                This prior research would also help me know what to ask when I did need help.
+            </p>
+
+            <p>Thanks to this project my technical knowledge and design skills improved. 
+                I had a cross-functional team with the stakeholders, architects, and developers to learn from as well.
+                In terms of design, my low-fi wireframes from V2 looked a lot more clean and clear compared to the ones from v1.
+                I experimented with a lot of layouts and I also used more autolayout components in Figma to speed up the iteration process. 
+                I was happy to build another product from beginning to end. V1 of the product has recently launched and V2 is currently in development.
+            </p>
+
+            <h5>Appendix</h5>
+
+            <h6>V1 Request Form (designed by another team meamber)</h6>
+            <!-- Code from W3 schools slideshow -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="create-low">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="img/cloudserve/form-1.svg" alt="" class="img-responsive" id="wiki" />
+                    <div class="text"> Form page 1.
+                    </div>
+                </div>
+
+                <div class="create-low">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="img/cloudserve/form-2.svg" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Form error.</div>
+                </div>
+
+                <div class="create-low">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="img/cloudserve/form-3.svg" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Confirmation Page.</div>
+                </div>
+
+                <div class="create-low">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="img/cloudserve/form-4.svg" alt="" class="img-responsive" id="wiki" />
+                    <div class="text">Form Submission Popup.</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot3" onclick="currentSlide3(1)"></span>
+                <span class="dot3" onclick="currentSlide3(2)"></span>
+                <span class="dot3" onclick="currentSlide3(3)"></span>
+                <span class="dot3" onclick="currentSlide3(4)"></span>
+
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showSlides3(slideIndex);
+
+                function plusSlides3(n) {
+                    showSlides3(slideIndex += n);
+                }
+
+                function currentSlide3(n) {
+                    showSlides3(slideIndex = n);
+                }
+
+                function showSlides3(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("create-low");
+                    var dots = document.getElementsByClassName("dot3");
+                    if (n > slides.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = slides.length }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                }
+            </script>
+            <p>&nbsp;</p>
+
+            <h6>V2 Crazy8's - Homepage and Archetype Selector</h6>
+            <img src="img/cloudserve/crazy-2.svg" class="img-responsive">
+            <p>&nbsp;</p>
+
+            <h6>V2 Low-Fidelity Wireframes - Homepage</h6>
+            <img src="img/cloudserve/lfw-new-homepage.svg" class="img-responsive">
+            <p>&nbsp;</p>
+
+            <h6>V2 Low-Fidelity Wireframes - Archetype Selector</h6>
+            <img src="img/cloudserve/lfw-archetype-selector.svg" class="img-responsive">
+            <p>&nbsp;</p>
+
+        </div>
+
+        <div class="col-md-3">
+            <ul class="cat-ul">
+                <li><i class="ion-ios-circle-filled"></i> UX Research</li>
+                <li><i class="ion-ios-circle-filled"></i> UX Design</li>
+                <li><i class="ion-ios-circle-filled"></i> User Flows</li>           
+                <li><i class="ion-ios-circle-filled"></i> Information Architecture</li>     
+                <li><i class="ion-ios-circle-filled"></i> Stakeholder Workshops</li>
+            </ul>
+            <div class="h-10"></div>
+
+        </div>
+    </div>
+    <!-- end main-container -->
+
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <p class="copyright"></p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- back to top -->
+    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+    <!-- end back to top -->
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <!--  plugins -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/animated-headline.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
+
+    <!--  custom script -->
+    <script src="js/custom.js"></script>
+
+    <!-- google analytics  -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-76796224-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</body>
+
+</html>
